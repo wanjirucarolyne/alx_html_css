@@ -1,11 +1,12 @@
 /*body*/
 
-body {
+body .works_on_smartphone {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
 }
+
 
 /*main*/
 main {
