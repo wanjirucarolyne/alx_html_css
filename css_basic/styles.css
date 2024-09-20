@@ -5,6 +5,7 @@ body .works_on_smartphone {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -20,6 +21,11 @@ main {
 main article {
     flex: 2;
     overflow-y: auto;
+    margin: 20px;
+    color: white;
+    padding: 60px;
+    background-color: lightsalmon;
+
 }
 
 /*aside*/
