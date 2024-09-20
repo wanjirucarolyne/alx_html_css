@@ -1,0 +1,28 @@
+/*body*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*main*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    
+}
+
+/*article*/
+main article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+/*aside*/
+main aside {
+    flex: 1;
+    overflow-y: auto;
+}
