@@ -161,7 +161,7 @@ button{
     flex-direction: row;
     margin-top: 80px;
     padding-right: 200px;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-left: 200px; 
 }
 
@@ -206,6 +206,7 @@ button{
     margin-top: 90px;
     font-family: "Source Sans 3", sans-serif;
     font-size: 18px;
+    padding-top: 30px;
 }
 .highlight_free{
     color: #C271FF;
@@ -228,4 +229,31 @@ button{
 
 .membership_button{
     padding-bottom: 40px;
+}
+
+/*FQA*/
+
+.frequent_questions_asked{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.fqa_heading{
+    text-align:center;
+    margin-top: 50px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.fqa_section{
+    display:flex;
+    justify-content: space-around;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+}
+
+/*FOOTER SECTION*/
+
+.bottom_footer{
+    
 }
