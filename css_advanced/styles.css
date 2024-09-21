@@ -135,3 +135,80 @@ button{
     padding-left: 200px;
 
 }
+
+/*Most popular tutorials*/
+
+.tutorials{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    color: black;
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #FFFFFF;
+}
+.Video_heading{
+    position: absolute;
+    padding-left: 650px;
+    font-weight: lighter;
+}
+
+.pop_color{
+    color: #C271FF;
+}
+.video_display{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding-right: 200px;
+    justify-content: space-between;
+    padding-left: 200px; 
+}
+
+.rate_image{
+    position: absolute;
+    height: 50px;
+    margin-top: 1px;
+}
+.rate_name{
+    color: #C271FF;
+    align-content: center;
+    margin-left: 70px;
+    
+}
+.rate_score{
+    position: absolute;
+    height: 15px;
+    margin-top: 18px;
+}
+.rate_comment p{
+    color: #C271FF;
+    align-content: center;
+    margin-left: 220px;
+    position: absolute;
+}
+
+.play_button{
+    position: absolute;
+    height: 70px;
+    padding-top: 50px;
+    padding-left: 70px;
+    
+}
+/* Free membership*/
+
+.membership{
+    color: black;
+    background-color: #071629;
+}
+.membership_heading{
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+}
+.highlight_free{
+    color: #C271FF;
+}
+.membership_section{
+    display: flex;
+}
