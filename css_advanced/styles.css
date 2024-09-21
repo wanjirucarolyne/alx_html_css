@@ -25,7 +25,7 @@ nav a{
 }
 
 .leading{
-    height: 120vh;
+    height: 160vh;
     background-image: url("get schooled images/Object.png");
     background-size: cover;
     color: #FFFFFF;
@@ -72,7 +72,7 @@ button{
 .sub_title{
     font-size: 18px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
     font-family: "Source Sans 3", sans-serif;
     
 }
@@ -97,6 +97,41 @@ button{
 
 /*Quote section*/
 
+
+
 .block_quote{
+    padding-left: 300px;
     background-color: #C271FF;
+    justify-content: center;
+    padding-top: 50px;
+    align-content: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    
+}
+
+.quote_image{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    height: 150px;
+    
+}
+
+.quote{
+    text-align: right;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+.Author{
+    text-align: start;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 15px;
+    padding-left: 200px;
+
 }
