@@ -67,6 +67,7 @@ button{
     padding-bottom: 10px;
     padding-left:20px ;
     padding-right: 15px;
+    
 
 }
 .sub_title{
@@ -197,7 +198,7 @@ button{
 /* Free membership*/
 
 .membership{
-    color: black;
+    color: white;
     background-color: #071629;
 }
 .membership_heading{
@@ -211,4 +212,20 @@ button{
 }
 .membership_section{
     display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-left: 100px;
+    padding-right:100px ;
+    padding-bottom: 60px;
+}
+.logo_smile{
+   padding-left: 150px;
+}
+.lorem{
+    text-align: center;
+}
+
+.membership_button{
+    padding-bottom: 40px;
 }
