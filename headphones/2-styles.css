@@ -1,0 +1,34 @@
+.results{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    
+}
+.results-page{
+    height: 90vh;
+     background-image: url("headphones images/headphones_hero_2.jpg");
+     background-size: cover;
+     color: white;
+}
+.results-paragraph{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+.results-icons{
+    display: flex;
+    margin-top: 70px;
+    justify-content:space-around;
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
